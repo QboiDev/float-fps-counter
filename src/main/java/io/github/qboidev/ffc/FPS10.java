@@ -1,8 +1,8 @@
-package dev.ultreon.cucyx;
+package io.github.qboidev.ffc;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class FPSInfinite {
+public class FPS10 {
     private static double fps;
 
     static void main() {
@@ -17,6 +17,10 @@ public class FPSInfinite {
     }
 
     private static void doStuff() {
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
 
+        }
     }
 }

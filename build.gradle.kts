@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "dev.ultreon.cucyx"
+group = "io.github.qboidev"
 version = "1.0-SNAPSHOT"
 
 repositories {
